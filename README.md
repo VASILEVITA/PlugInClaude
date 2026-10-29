@@ -86,6 +86,40 @@ Skill-urile merg imediat după instalare, dar unele pluginuri folosesc servere M
 - **Conectori care așteaptă autorizare** (Notion, Slack, Figma, Canva, Salesforce, Atlassian, Microsoft 365 etc.) se autorizează cu `/mcp` într-o sesiune interactivă.
 - Câțiva conectori nu se pot conecta deloc din partea serverului: BigQuery, Asana, Box, HubSpot, Xero, Zoom, Definely, TopCounsel, Definite.
 
+## De unde sunt instalate
+
+Toate au fost instalate din catalogul de pluginuri Claude Code (`anthropic-plugin-directory`). Catalogul doar le listează; codul fiecăruia e în repo-ul GitHub de mai jos.
+
+**Publicate de Anthropic**
+
+| Plugin | Repo sursă |
+|---|---|
+| data, marketing, design, small-business, productivity, legal, sales, finance, human-resources, enterprise-search, pdf-viewer | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (câte un folder pentru fiecare plugin) |
+| brand-voice | [anthropics/knowledge-work-plugins/partner-built/brand-voice](https://github.com/anthropics/knowledge-work-plugins/tree/HEAD/partner-built/brand-voice) (făcut de un partener, publicat de Anthropic) |
+| code-review-anthropics | [anthropics/claude-plugins-official/plugins/code-review](https://github.com/anthropics/claude-plugins-official/tree/HEAD/plugins/code-review) |
+| claude-security | [anthropics/claude-plugins-official/plugins/claude-security](https://github.com/anthropics/claude-plugins-official/tree/HEAD/plugins/claude-security) |
+| claude-md-management | [anthropics/claude-plugins-official/plugins/claude-md-management](https://github.com/anthropics/claude-plugins-official/tree/HEAD/plugins/claude-md-management) |
+| commit-commands | [anthropics/claude-plugins-official/plugins/commit-commands](https://github.com/anthropics/claude-plugins-official/tree/HEAD/plugins/commit-commands) |
+| code-simplifier | [anthropics/claude-plugins-official/plugins/code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/HEAD/plugins/code-simplifier) |
+| telegram | [anthropics/claude-plugins-official/external_plugins/telegram](https://github.com/anthropics/claude-plugins-official/tree/HEAD/external_plugins/telegram) |
+| commercial-legal | [anthropics/claude-for-legal/commercial-legal](https://github.com/anthropics/claude-for-legal/tree/HEAD/commercial-legal) |
+
+**Publicate de alți autori**
+
+| Plugin | Repo sursă |
+|---|---|
+| superpowers | [obra/superpowers](https://github.com/obra/superpowers) |
+| desktop-commander | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP/tree/HEAD/plugins/claude) |
+| microsoft-docs | [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) |
+| humanizer-blader | [blader/humanizer](https://github.com/blader/humanizer) |
+| social-media-skills | [social-media-skills/skills](https://github.com/social-media-skills/skills) |
+| image-generation | [ahmedraza28/image-generation-skill](https://github.com/ahmedraza28/image-generation-skill) |
+| instagram | [riasistemas/claude-channel-instagram](https://github.com/riasistemas/claude-channel-instagram) |
+| watch-video | [marcinsufa/claude-watch-video](https://github.com/marcinsufa/claude-watch-video) |
+| ai-skills | [ziazon/ai-team-skills](https://github.com/ziazon/ai-team-skills) |
+| seo-aeo-geo-ultimate | [oegeyilmaz9/seo-aeo-geo-ultimate](https://github.com/oegeyilmaz9/seo-aeo-geo-ultimate) |
+| claude-seo-and-geo-site-audit | [rjspence3/claude-site-audit](https://github.com/rjspence3/claude-site-audit) |
+
 ## Note
 
 - La început erau instalate două pluginuri humanizer cu același nume intern. Am păstrat `humanizer-blader` (originalul) și l-am dezinstalat pe `humanizer-adelaidasofia`.
